@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 474px;
+}
+
+.container>* {
+    position: absolute;
+}
+img {
+    display: block;
+    height: 200px;
+    width: 200px;
+}
+
+div {
+    background-image: url(../img/maxresdefault.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/***************css media*****************/
+
+@media only screen and (min-width: 465px) {
+    div {
+        background-image: url(../img/Landscape.jpg);
+       }
+}
+
+
+/***************css media*****************/
+
+@media only screen and (min-width: 650px) {
+    div {
+        background-image: url(../img/dawn.png);
+    }
+}
